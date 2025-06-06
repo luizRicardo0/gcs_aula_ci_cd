@@ -1,0 +1,23 @@
+[MESSAGES CONTROL]
+# Disable some common non-critical warnings
+disable=
+    missing-docstring,
+    invalid-name,
+    too-few-public-methods,
+    too-many-arguments
+
+[FORMAT]
+# Set maximum allowed line length
+max-line-length=100
+
+[REPORTS]
+# Only display the messages, not the overall Pylint report
+reports=no
+
+[DESIGN]
+# Customize design warning thresholds if needed
+max-args=10
+max-locals=30
+max-returns=6
+max-branches=12
+max-statements=50
